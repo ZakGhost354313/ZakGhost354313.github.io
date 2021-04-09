@@ -1,10 +1,24 @@
 version = 1
 
+test_patterns = ["test_folder/**"]
+
+exclude_patterns = [
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "Jordan/**",
+    "Jordan/README.md",
+    "test_folder/README.md"
+]
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
 [[analyzers]]
 name = "javascript"
 enabled = true
-
-  [analyzers.meta]
+ [analyzers.meta]
   plugins = [
     "ember",
     "angular",
@@ -13,3 +27,12 @@ enabled = true
     "react",
     "meteor"
   ]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[transformers]]
+name = "standardjs"
+enabled = true
+
