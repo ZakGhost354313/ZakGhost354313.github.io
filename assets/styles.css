@@ -1,0 +1,23 @@
+footer.embed-note {
+  font-size: 12;
+  font-family: cursive;
+  font-color: #77A0FF;
+}
+
+#test {
+  font-size: 16;
+  font-family: Arial;
+  font-color: black;
+}
+
+head {
+  background-image: url('assets/head-background.jpeg');
+  background-repeat: no-repeat;
+  text-align: center;
+  font-color: #FFFFFF;
+  font-family: Geneva;
+}
+
+#left-align {
+  text-align: left;
+}
