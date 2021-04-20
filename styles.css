@@ -7,3 +7,38 @@
   color: red;
   font: Arial;
 }
+
+/*
+i dont know if this will work
+vvvvvvvvvvvvvvvvvvvv
+title.default {
+  font-color: black;
+  font-family: Arial;
+  font-size: 12;
+  text-align: center;
+}
+*/
+
+head.default {
+  font-color: black;
+  font-family: Arial;
+  font-size: 12;
+  text-align: left;
+}
+
+body.default {
+  font-color: black;
+  font-family: Arial;
+  font-size: 12;
+  text-align: left;
+}
+
+head.top-right {
+  text-align: right;
+}
+
+head.top-left {
+  text-align: left;
+}
+
+//hi
