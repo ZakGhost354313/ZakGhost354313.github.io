@@ -1,5 +1,7 @@
 /*this will hopefully make the word hello full screen*/
 
+/*this didnt work
+
 h1 {
   font-size: 16px;
 }
@@ -12,4 +14,10 @@ h1 {
   h1 {
     font-size: 22px;
   }
+}
+
+*/
+
+h1 {
+  font-size: 96px
 }
