@@ -1,8 +1,17 @@
 <html>
   test<br><br>
+  <canvas id="gameCanvas" width="800" height="600">
+    
+  </canvas>
   <script>
+    var canvas;
+    var canvasContext;
+    
     window.onload = function() {
-      console.log("loaded")
+      canvas = document.getElementId('gameCanvas');
+      canvasContext = canvas.getContext('2d');
+      canvasContext.fillStyle = 'black';
+      canvasContext.fillRect(0,0,canvas.width,canvas.height);
     }
   </script>
 </html>
