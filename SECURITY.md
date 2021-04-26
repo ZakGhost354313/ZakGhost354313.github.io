@@ -9,7 +9,7 @@ Please respect this and the `LICENCE.md`
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version  | :white_check_mark:/:X:          |
+| Version  | Supported          |
 | -------- | ------------------ |
 |1.0-beta  | :white_check_mark: |
 |1.1-beta-2| :x:                |
