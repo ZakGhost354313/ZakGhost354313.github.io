@@ -10,7 +10,7 @@
   font-color: black;
 }
 
-head {
+head.with-head-background {
   background-image: url('assets/head-background.jpeg');
   background-repeat: no-repeat;
   text-align: center;
