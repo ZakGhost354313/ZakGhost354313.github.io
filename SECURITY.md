@@ -1,18 +1,18 @@
 # Security Policy
 
-# `obviously not done`
+Please respect this and the `LICENCE.md`
+
+[<img src="https://cdn.icon-icons.com/icons2/512/PNG/512/weblink_2_icon-icons.com_50722.png">](https://github.com/ZakGhost354313/ZakGhost354313.github.io/blob/dffa2ddd0759fad4c748e4a367fe4efcf92fb226/LICENSE)
 
 ## Supported Versions
 
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version  | Supported          |
+| Version  | :white_check_mark:/:X:          |
 | -------- | ------------------ |
-|#.#.#beta | :white_check_mark: |
-|#.#.#alpha| :x:                |
-|          | :white_check_mark: |
-|          | :x:                |
+|1.0-beta  | :white_check_mark: |
+|1.1-beta-2| :x:                |
 
 ## Reporting a Vulnerability
 
