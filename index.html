@@ -16,6 +16,24 @@
 			<p>To veiw this site you need to enable JavaScript</p>
 		</noscript>
 		<br>
+		<script>
+			function displayMenu(currentMenu) {
+				var thisMenu = document.getElementById(currentMenu).style
+				if (thisMenu.display == "block") {
+					thisMenu.display = "none"
+				}
+				else {
+					thisMenu.display = "block"
+				}
+				return false
+			}
+		</script>
+		<style>
+			.menu {
+			display:none;
+			margin-left:20px;
+			}
+		</style>
 	</head>
 	<frameset cols = "25%,50%,25%">
 		<frame name="left" src="left.html" frameborder="0" framespacing="0" scrolling="no"/>
@@ -35,7 +53,7 @@
 	<footer>
 		<p></p>
 		<br><br>
-		<script language="javascript" type="text/javascript">
+		<script>
 			//app name test
 			if (navigator.appName == "Safari") {
 				document.write("You are running Safari");
@@ -52,34 +70,19 @@
 			else if (navigator.appName == "Opera") {
 				document.write("You are running Opera, which i dont know anything about.");
 			}
+			else if (navigator.appName == "Netscape")
+				document.write("You are running Netscape")
 			else {
-				document.write("For some reason you are not using any of the following browsers: Google Chrome, Safari, Microsoft IE, Firefox, or Opera(which i know nothing about.); so... why aren't you using any of these?");
+				document.write("For some reason you are not using any of the following browsers: Google Chrome, Safari, Netscape, Microsoft IE, Firefox, or Opera(which i know nothing about.); so... why aren't you using any of these?");
+				document.write("Your Browser Is: " + navigator.appName)
 			}
 			
 			
 		</script>
 			<p><br><br><br></p>
 			
-			<script>
-				function displayMenu(currentMenu) {
-					var thisMenu = document.getElementById(currentMenu).style
-					if (thisMenu.display == "block") {
-						thisMenu.display = "none"
-					}
-					else {
-						thisMenu.display = "block"
-					}
-					return false
-				}
-			</script>
-			<style>
-				.menu {
-					display:none;
-					margin-left:20px;
-				}
-			</style>
 			<h3>
-			<a href="./index.html" onClick="return displayMenu('resMenu')">Minecraft</a>
+			<a href="index.html" onClick="return displayMenu('resMenu')">Minecraft</a>
 			</h3>
 			<span class="menu" id="resMenu">
 				<a href="/Minecraft">Minecraft</a>
@@ -89,7 +92,7 @@
 				<a href="about:blank">test</a>
 			</span>
 			<p/>
-			<a href=./index.html onClick="return displayMenu('otherLinks')">Other</a>
+			<a href=index.html onClick="return displayMenu('otherLinks')">Other</a>
 			<span class="menu footer-links" id=otherLinks>
 				<a href="./index.html">Home</a>
 				·
