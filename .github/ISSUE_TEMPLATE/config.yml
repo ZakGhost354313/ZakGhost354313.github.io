@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Community Support
+    url: https://github.community/
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
+  - name: Github Repo Issues
+    url: https://github.com/ZakGhost354313/ZakGhost354313.github.io/issues
+    about: add an issue to the correlation project for the problem or new feature you require fixing or made.
