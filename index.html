@@ -35,15 +35,15 @@
 			}
 		</style>
 	</head>
-	<frameset cols = "25%,50%,25%">
-		<frame name="left" src="left.html" frameborder="0" framespacing="0" scrolling="no"/>
-		<frame name="middle" src="middle.html" />
-		<frame name="right" src="right.html" />
-		<noframes>
-			<head>Your browser does not support frames.</body>
-		</noframes>
-	</frameset>
 	<body>
+		<frameset cols = "25%,50%,25%">
+			<frame name="left" src="left.html" frameborder="0" framespacing="0" scrolling="no"/>
+			<frame	name="middle" src="middle.html" />
+			<frame name="right" src="right.html" />
+		</frameset>
+		<noframes>
+			<p>Your browser does not support frames.</p>
+		</noframes>
 		<h1 styles="text-align:left-align; color:#02431f;">Welcome</h1>
 		<div>
 			
@@ -84,7 +84,7 @@
 			<h3>
 			<a href="index.html" onClick="return displayMenu('resMenu')">Minecraft</a>
 			</h3>
-			<span class="menu" id="resMenu">
+			<span class="menu footer-links" id="resMenu">
 				<a href="/Minecraft">Minecraft</a>
 				<a href="/Minecraft_Modding">Minecraft Modding</a>
 				<a href="/Minecraft_Commands">Minecraft Commands</a>
