@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Home</title>
 		<meta charset="utf-8"/>
-		<meta charset="ISO-8859-1"/>
+		<base href="3543.cf/"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+		<meta name="keywords" content="HTML, CSS, Github, XHTML, JavaScript, Code">
 		<meta name="description" content="GitHub Page made by author">
 		<meta name="author" content="ZakGhost354313">
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
 		<link rel="shortcut icon" type="image/ico" href="assets/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="https://demo.tutorialzine.com/2015/01/freebie-5-responsive-footer-templates/css/footer-basic-centered.css"/>
-		<h1 id="left-align">Hello, And Welcome To Jurrasic Par... Wait no</h1>
 		<noscript>
 			<h1>ERROR Javascript Disabled</h1>
 			<p>To veiw this site you need to enable JavaScript</p>
@@ -27,13 +26,15 @@
 		</noframes>
 	</frameset>
 	<body>
-		<h1></h1>
-		<p></p>
+		<h1 styles="text-align:left-align; color:#02431f;">Welcome</h1>
+		<div>
+			
+		</div>
 	</body>
 	
 	<footer>
 		<p></p>
-		<p><br><br></p>
+		<br><br>
 		<script language="javascript" type="text/javascript">
 			//app name test
 			if (navigator.appName == "Safari") {
@@ -58,20 +59,52 @@
 			
 		</script>
 			<p><br><br><br></p>
-			<p class="footer-company-motto">*insert text here*</p>
-			<p class="footer-links">
+			
+			<script>
+				function displayMenu(currentMenu) {
+					var thisMenu = document.getElementById(currentMenu).style
+					if (thisMenu.display == "block") {
+						thisMenu.display = "none"
+					}
+					else {
+						thisMenu.display = "block"
+					}
+					return false
+				}
+			</script>
+			<style>
+				.menu {
+					display:none;
+					margin-left:20px;
+				}
+			</style>
+			<h3>
+			<a href="./index.html" onClick="return displayMenu('resMenu')">Minecraft</a>
+			</h3>
+			<span class="menu" id="resMenu">
+				<a href="/Minecraft">Minecraft</a>
+				<a href="/Minecraft_Modding">Minecraft Modding</a>
+				<a href="/Minecraft_Commands">Minecraft Commands</a>
+				<a href="about:blank">test</a>
+				<a href="about:blank">test</a>
+			</span>
+			<p/>
+			<a href=./index.html onClick="return displayMenu('otherLinks')">Other</a>
+			<span class="menu footer-links" id=otherLinks>
 				<a href="./index.html">Home</a>
 				·
 				<a href="/errors">Error Pages</a>
 				·
-				<a href="particle-clicker">Particle Clicker</a>
+				<a href="/particle-clicker">Particle Clicker</a>
 				·
 				<a href="about:blank">2</a>
 				·
 				<a href="about:blank">3</a>
 				·
 				<a href="about:blank">4</a>
-			</p>
+			</span>
+			
+			<p class="footer-company-motto">Minecraft is life<br><br><br>lol<br><br></p>
 			<p class="footer-basic-centered footer-company-name">Zak &copy; 2021</p>
 		<a class="embed" href="https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io/?ref=repository-badge" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io.svg/?label=active+issues&show_trend=true"/>
 	</footer>
