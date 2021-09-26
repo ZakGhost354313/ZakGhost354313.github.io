@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
     if (unpw === "uname = "+username+";password = "+password) {
         location.reload();
     }
-    else if (username === ${ secret.3543_un} && password === ${ secret.3543_pw}) {
+    else if (username === ${ secret.user} && password === ${ secret.pass}) {
         document.cookie = "uname = "+username+";password = "+password;
         alert("You have successfully logged in.");
         location.reload();
