@@ -6,8 +6,11 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-
-    if (username === "user" && password === "web_dev") {
+    if (unpw === "uname = "+username+";password = "+password) {
+        location.reload();
+    }
+    else if (username === ${ secret.3543_un} && password === ${ secret.3543_pw}) {
+        document.cookie = "uname = "+username+";password = "+password;
         alert("You have successfully logged in.");
         location.reload();
     } else {
