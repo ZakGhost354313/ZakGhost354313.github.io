@@ -24,6 +24,9 @@ the <styles></styles> tag is for css styles you want in just this file
     </styles>
   </head>
   <body>
+		<script>
+			window.addEventListener("gamepadconnected", (event) => {document.print("A gamepad connected:");document.print(event.gamepad);});window.addEventListener("gamepaddisconnected", (event) => {document.print("A gamepad disconnected:");document.print(event.gamepad);});var gamepads = navigator.getGamepads();document.print(gamepads);
+		</script>
     <h1>Template</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Sit amet est placerat in egestas erat imperdiet. Ipsum dolor sit amet consectetur adipiscing elit. Pulvinar etiam non quam lacus suspendisse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Arcu vitae elementum curabitur vitae nunc. Cras sed felis eget velit aliquet sagittis. Morbi enim nunc faucibus a pellentesque sit amet. Sit amet porttitor eget dolor. Ante in nibh mauris cursus mattis molestie. Sit amet justo donec enim diam vulputate. Vestibulum sed arcu non odio euismod lacinia at quis. Urna cursus eget nunc scelerisque viverra mauris. Accumsan tortor posuere ac ut consequat. Posuere morbi leo urna molestie at elementum eu. Congue quisque egestas diam in arcu cursus euismod quis viverra. Elementum nibh tellus molestie nunc non blandit. Varius duis at consectetur lorem donec massa sapien faucibus et. Justo nec ultrices dui sapien. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac.</p>
