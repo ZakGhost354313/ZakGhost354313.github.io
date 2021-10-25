@@ -27,6 +27,10 @@
 				}
 				return false
 			}
+			function cookieAdd(name, value) {
+				document.cookie = name+"="+value;
+			}
+			cookieAdd("cloudflare-test","allowed")
 		</script>
 		<style>
 			.menu {
