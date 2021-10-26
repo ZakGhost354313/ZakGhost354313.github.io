@@ -25,12 +25,13 @@
 				else {
 					thisMenu.display = "block"
 				}
-				return false
+				return false;
 			}
 			function cookieAdd(name, value) {
 				document.cookie = name+"="+value;
+				return true;
 			}
-			cookieAdd("cloudflare-test","allowed")
+				let cloudflareCookie1 = cookieAdd("cloudflare-test","allowed");
 		</script>
 		<style>
 			.menu {
