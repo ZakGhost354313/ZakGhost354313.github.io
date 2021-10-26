@@ -16,22 +16,7 @@
 			<p>To veiw this site you need to enable JavaScript</p>
 		</noscript>
 		<br>
-		<script>
-			function displayMenu(currentMenu) {
-				var thisMenu = document.getElementById(currentMenu).style
-				if (thisMenu.display == "block") {
-					thisMenu.display = "none"
-				}
-				else {
-					thisMenu.display = "block"
-				}
-				return false;
-			}
-			function cookieAdd(name, value) {
-				document.cookie = name+"="+value;
-				return true;
-			}
-				let cloudflareCookie1 = cookieAdd("cloudflare-test","allowed");
+		<script src="./assets/script.js">
 		</script>
 		<style>
 			.menu {
