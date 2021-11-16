@@ -16,7 +16,9 @@ function start() {
   s.setItem('html',data);
 }
 function main() {
+  start();
   let html = s.getItem('html');
   var target = document.getElementById('lol');
   target.innerHTML += html;
 }
+main();
