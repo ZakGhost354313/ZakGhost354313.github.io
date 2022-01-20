@@ -13,6 +13,7 @@ function displayMenu(currentMenu) {
 				return true;
 			}
       let cloudflareCookie1 = cookieAdd("cloudflare-test","allowed");
-
+/*
 var target = document.getElementById("webPage");
 target.innerHTML += target
+*/
