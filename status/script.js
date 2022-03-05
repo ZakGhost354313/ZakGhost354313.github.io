@@ -1,5 +1,5 @@
 let s = window.localStorage;
-let thing = "Online"
+let thing = "Online - 99%"
 s.setItem('status', thing)
 function start() {
   let status = s.getItem('status');
