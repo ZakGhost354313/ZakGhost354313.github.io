@@ -43,11 +43,11 @@ jobs:
       - name: Cache
         uses: actions/cache@v2.1.4
           with: 
-          # A list of files, directories, and wildcard patterns to cache and restore
-          path: ./Jordan/
-          # An explicit key for restoring and saving the cache
-          key: 
-          # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+            # A list of files, directories, and wildcard patterns to cache and restore
+            path: ./Jordan/
+            # An explicit key for restoring and saving the cache
+            key: 
+            # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
       - name: Funny comments
         uses: Marta83/funny-comment-action@v2.1
       
