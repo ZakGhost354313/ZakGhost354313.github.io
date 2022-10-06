@@ -7,4 +7,4 @@ web page provided by github
 
 <b>NOT_DONE</b>
 
-[![DeepSource](https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ZakGhost354313/ZakGhost354313.github.io/?ref=repository-badge) [![Join the chat at https://gitter.im/ZakGhost354313-github-io/community](https://badges.gitter.im/ZakGhost354313-github-io/community.svg)](https://gitter.im/ZakGhost354313-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
